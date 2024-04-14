@@ -1,0 +1,75 @@
+.popupCanvas {
+    position: absolute;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: white; */
+}
+
+
+.popup{
+    width: 600px;
+
+}
+
+.popup > span {
+    border: 2px solid #e8e8e8;
+    padding: 5px 6px;
+    color: white;
+    font-size: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.input {
+ border: 2px solid #e8e8e8;
+ padding: 15px 30px;
+ border-radius: 10px;
+ background-color: #212121;
+ font-size: small;
+ font-weight: bold;
+ text-align: center;
+}
+
+.input:focus {
+ outline-color: white;
+ background-color: #212121;
+ color: #e8e8e8;
+ box-shadow: 5px 5px #888888;
+}
+
+.joinGroupButton {
+    width: 100%;
+    margin: -20px;
+    border: 2px solid #e8e8e8;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #212121;
+    color: #e8e8e8;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.joinGroupButton:hover {
+    background-color: #424242;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.joinGroupButton:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4);
+}
+
+
+
+
+
+
+
